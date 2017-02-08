@@ -17,24 +17,44 @@
 
 }
 
+#copyright { text-align: center;
+
+}
+
+#header { height: 100px; 
+			background-color: #cccccc;}
+
+
 body {
 	background-color: #efeee7;
 	font-family: "Georgia",Times New Roman,Times,serif;
 	color: #333333;
+	width:960px;
 	}
 
-header { background-color: #333333;
+header { background-color: #cccccc;
 margin:0;
-padding:0;}
+padding:0;
+color: black;}
 
-h1 {color: #eee;
+h1 {color: black;
 	font-size: 28px;
 	margin:0
 	padding:15px;
-	text-align: center;
+	float: left;
 	}
 
 h2 {font-size: 24px;
 	width: 1024px;
 	margin: 0;
 	}
+
+footer { position: fixed;
+		width: 100%;
+		height: 200px; 
+		background-color: #666666; }
+
+nav {	float: right ;
+
+
+}
